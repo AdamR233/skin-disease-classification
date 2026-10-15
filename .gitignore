@@ -223,9 +223,10 @@ __marimo__/
 data/raw/*
 data/processed/*
 
-# Keep empty data directories in Git
+# Keep selected processed CSV manifests in Git
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/*.csv
 
 # Trained models
 models/*
@@ -234,3 +235,6 @@ models/*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Temporary notebook build files
+notebooks/.build_*.py
