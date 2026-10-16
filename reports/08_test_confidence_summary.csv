@@ -1,0 +1,8 @@
+statistic,value
+mean_confidence_correct,0.9257181882858276
+mean_confidence_incorrect,0.7401847839355469
+median_confidence_correct,0.9484785795211792
+median_confidence_incorrect,0.7991524934768677
+incorrect_confidence_ge_0.90,130.0
+incorrect_confidence_ge_0.95,36.0
+incorrect_confidence_ge_0.99,0.0
